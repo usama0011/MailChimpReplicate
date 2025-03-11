@@ -1,0 +1,30 @@
+.custom-table table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.custom-table td,
+.custom-table th {
+  border-right: none !important; /* Removes vertical borders */
+}
+
+.custom-table th {
+  background-color: #efeeea !important; /* Header background color */
+}
+
+.custom-table .ant-table-cell {
+  border-left: none !important;
+}
+/* Increase checkbox size */
+.custom-table .ant-checkbox-inner {
+  width: 18px; /* Adjust width */
+  height: 18px; /* Adjust height */
+}
+
+.custom-table .ant-checkbox-wrapper {
+  transform: scale(1.5); /* Adjust scaling factor for the entire checkbox */
+}
+
+.custom-table .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #007c89; /* Custom color for checked box */
+}
