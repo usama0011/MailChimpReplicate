@@ -114,7 +114,7 @@ const MarkingDashboard = () => {
                                   <img
                                     alt="Signed in as Ali Next Web Lines, Account Menu"
                                     class="avatarImage-1YlIs snipcss0-15-44-45"
-                                    src="https://img.icons8.com/?size=50&id=66724&format=png"
+                                    src="https://img.icons8.com/?size=50&id=63063&format=png"
                                   />
                                 </div>
                               </button>

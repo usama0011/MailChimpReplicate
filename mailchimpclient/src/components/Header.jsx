@@ -39,7 +39,7 @@ const Header = () => {
                   <img
                     alt="Signed in as Ali Next Web Lines, Account Menu"
                     className="avatarImage-1YlIs"
-                    src="https://img.icons8.com/?size=50&id=66724&format=png"
+                    src="https://img.icons8.com/?size=50&id=63063&format=png"
                   />
                 </div>
               </button>

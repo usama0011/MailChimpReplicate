@@ -260,7 +260,7 @@ const ViewCompaing = () => {
                                     <img
                                       alt="Signed in as Ali Next Web Lines, Account Menu"
                                       className="avatarImage-1YlIs snipcss0-15-44-45"
-                                      src="https://img.icons8.com/?size=50&id=66724&format=png"
+                                      src="https://img.icons8.com/?size=50&id=63063&format=png"
                                     />
                                   </div>
                                 </button>
@@ -1355,7 +1355,7 @@ const ViewCompaing = () => {
                                 future, we recommend you authenticate your
                                 domain,{" "}
                                 <span class="root-3TDqk small-bold-6R-6E">
-                                  Offers@clicksconnection.com
+                                  selanimedia.xyz
                                 </span>
                                 .
                               </span>
