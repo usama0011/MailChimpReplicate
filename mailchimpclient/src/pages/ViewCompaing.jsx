@@ -1540,16 +1540,12 @@ const ViewCompaing = () => {
                             onClick={() => handlloadingandChange("overview")}
                             class="isActive-2tLXY"
                           >
-                            <a style={{ color: "#007c89" }} href="#">
-                              Overview
-                            </a>
+                            <a style={{ color: "#007c89" }}>Overview</a>
                           </li>
                           <li
                             onClick={() => setcurrentpage("clickperformance")}
                           >
-                            <a style={{ color: "gray" }} href="#">
-                              Click performance
-                            </a>
+                            <a style={{ color: "gray" }}>Click performance</a>
                           </li>
                           <li
                             class=""
@@ -1564,19 +1560,19 @@ const ViewCompaing = () => {
                             onClick={() => setcurrentpage("ecommerace")}
                             class=""
                           >
-                            <a href="#">Ecommerce</a>
+                            <a>Ecommerce</a>
                           </li>
                           <li
                             onClick={() => setcurrentpage("contentoptimzer")}
                             class=""
                           >
-                            <a href="#">Content Optimizer</a>
+                            <a>Content Optimizer</a>
                           </li>
                           {/* <li onClick={() => setcurrentpage("social")} class="">
-                            <a href="#">Social</a>
+                            <a >Social</a>
                           </li> */}
                           <li onClick={() => setcurrentpage("more")} class="">
-                            <a href="#">More</a>
+                            <a>More</a>
                           </li>
                         </ul>
                       </nav>
@@ -4384,12 +4380,10 @@ const ViewCompaing = () => {
                       >
                         <ul class="menu-gUP8n">
                           <li onClick={() => setcurrentpage("overview")}>
-                            <a style={{ color: "gray" }} href="#">
-                              Overview
-                            </a>
+                            <a style={{ color: "gray" }}>Overview</a>
                           </li>
                           <li class="isActive-2tLXY">
-                            <a style={{ color: "#007c89" }} href="#">
+                            <a style={{ color: "#007c89" }}>
                               Click performance
                             </a>
                           </li>
@@ -4406,19 +4400,19 @@ const ViewCompaing = () => {
                             onClick={() => setcurrentpage("ecommerace")}
                             class=""
                           >
-                            <a href="#">Ecommerce</a>
+                            <a>Ecommerce</a>
                           </li>
                           <li
                             onClick={() => setcurrentpage("contentoptimzer")}
                             class=""
                           >
-                            <a href="#">Content Optimizer</a>
+                            <a>Content Optimizer</a>
                           </li>
                           {/* <li onClick={() => setcurrentpage("social")} class="">
-                            <a href="#">Social</a>
+                            <a >Social</a>
                           </li> */}
                           <li onClick={() => setcurrentpage("more")} class="">
-                            <a href="#">More</a>
+                            <a>More</a>
                           </li>
                         </ul>
                       </nav>
@@ -4989,16 +4983,14 @@ const ViewCompaing = () => {
                           >
                             <ul class="menu-gUP8n">
                               <li onClick={() => setcurrentpage("overview")}>
-                                <a style={{ color: "" }} href="#">
-                                  Overview
-                                </a>
+                                <a style={{ color: "" }}>Overview</a>
                               </li>
                               <li
                                 onClick={() =>
                                   setcurrentpage("clickperformance")
                                 }
                               >
-                                <a style={{ color: "gray" }} href="#">
+                                <a style={{ color: "gray" }}>
                                   Click performance
                                 </a>
                               </li>
@@ -5013,7 +5005,7 @@ const ViewCompaing = () => {
                                 }
                                 class="isActive-2tLXY"
                               >
-                                <a style={{ color: "#007c89" }} href="#">
+                                <a style={{ color: "#007c89" }}>
                                   Recipient activity
                                 </a>
                                 {/*  */}
@@ -5022,7 +5014,7 @@ const ViewCompaing = () => {
                                 onClick={() => setcurrentpage("ecommerace")}
                                 class=""
                               >
-                                <a href="#">Ecommerce</a>
+                                <a>Ecommerce</a>
                               </li>
                               <li
                                 onClick={() =>
@@ -5030,19 +5022,19 @@ const ViewCompaing = () => {
                                 }
                                 class=""
                               >
-                                <a href="#">Content Optimizer</a>
+                                <a>Content Optimizer</a>
                               </li>
                               {/* <li
                                 onClick={() => setcurrentpage("social")}
                                 class=""
                               >
-                                <a href="#">Social</a>
+                                <a >Social</a>
                               </li> */}
                               <li
                                 onClick={() => setcurrentpage("more")}
                                 class=""
                               >
-                                <a href="#">More</a>
+                                <a>More</a>
                               </li>
                             </ul>
                           </nav>
@@ -7169,16 +7161,12 @@ const ViewCompaing = () => {
                       >
                         <ul class="menu-gUP8n">
                           <li onClick={() => setcurrentpage("overview")}>
-                            <a style={{ color: "gray" }} href="#">
-                              Overview
-                            </a>
+                            <a style={{ color: "gray" }}>Overview</a>
                           </li>
                           <li
                             onClick={() => setcurrentpage("clickperformance")}
                           >
-                            <a style={{ color: "gray" }} href="#">
-                              Click performance
-                            </a>
+                            <a style={{ color: "gray" }}>Click performance</a>
                           </li>
                           <li
                             onClick={() => setcurrentpage("recipientactivity")}
@@ -7194,21 +7182,19 @@ const ViewCompaing = () => {
                             style={{ color: "#007c89" }}
                             class="isActive-2tLXY"
                           >
-                            <a style={{ color: "#007c89" }} href="#">
-                              Ecommerce
-                            </a>
+                            <a style={{ color: "#007c89" }}>Ecommerce</a>
                           </li>
                           <li
                             onClick={() => setcurrentpage("contentoptimzer")}
                             class=""
                           >
-                            <a href="#">Content Optimizer</a>
+                            <a>Content Optimizer</a>
                           </li>
                           {/* <li onClick={() => setcurrentpage("social")} class="">
-                            <a href="#">Social</a>
+                            <a >Social</a>
                           </li> */}
                           <li onClick={() => setcurrentpage("more")} class="">
-                            <a href="#">More</a>
+                            <a>More</a>
                           </li>
                         </ul>
                       </nav>
@@ -7311,7 +7297,6 @@ const ViewCompaing = () => {
                                     , you can view your data here at any time.
                                   </p>
                                   <a
-                                    href="#"
                                     class="c-noDataBlock_action button-wink button-wink-primary float--none  hide"
                                     data-dojo-attach-point="noDataButton"
                                   ></a>
@@ -7333,16 +7318,12 @@ const ViewCompaing = () => {
                       >
                         <ul class="menu-gUP8n">
                           <li onClick={() => setcurrentpage("overview")}>
-                            <a style={{ color: "gray" }} href="#">
-                              Overview
-                            </a>
+                            <a style={{ color: "gray" }}>Overview</a>
                           </li>
                           <li
                             onClick={() => setcurrentpage("clickperformance")}
                           >
-                            <a style={{ color: "gray" }} href="#">
-                              Click performance
-                            </a>
+                            <a style={{ color: "gray" }}>Click performance</a>
                           </li>
                           <li
                             onClick={() => setcurrentpage("recipientactivity")}
@@ -7357,13 +7338,13 @@ const ViewCompaing = () => {
                             onClick={() => setcurrentpage("ecommerace")}
                             class=""
                           >
-                            <a href="#">Ecommerce</a>
+                            <a>Ecommerce</a>
                           </li>
                           <li
                             onClick={() => setcurrentpage("contentoptimzer")}
                             class="isActive-2tLXY"
                           >
-                            <a style={{ color: "#007c89" }} href="#">
+                            <a style={{ color: "#007c89" }}>
                               Content Optimizer
                             </a>
                           </li>
@@ -7371,10 +7352,10 @@ const ViewCompaing = () => {
                             onClick={() => setcurrentpage("overview")}
                             class=""
                           >
-                            <a href="#">Social</a>
+                            <a >Social</a>
                           </li> */}
                           <li onClick={() => setcurrentpage("more")} class="">
-                            <a href="#">More</a>
+                            <a>More</a>
                           </li>
                         </ul>
                       </nav>
@@ -7897,16 +7878,12 @@ const ViewCompaing = () => {
                       >
                         <ul class="menu-gUP8n">
                           <li onClick={() => setcurrentpage("overview")}>
-                            <a style={{ color: "" }} href="#">
-                              Overview
-                            </a>
+                            <a style={{ color: "" }}>Overview</a>
                           </li>
                           <li
                             onClick={() => setcurrentpage("clickperformance")}
                           >
-                            <a style={{ color: "gray" }} href="#">
-                              Click performance
-                            </a>
+                            <a style={{ color: "gray" }}>Click performance</a>
                           </li>
                           <li
                             style={{ color: "" }}
@@ -7921,25 +7898,23 @@ const ViewCompaing = () => {
                             onClick={() => setcurrentpage("ecommerace")}
                             class=""
                           >
-                            <a href="#">Ecommerce</a>
+                            <a>Ecommerce</a>
                           </li>
                           <li
                             onClick={() => setcurrentpage("contentoptimzer")}
                             class=""
                           >
-                            <a href="#">Content Optimizer</a>
+                            <a>Content Optimizer</a>
                           </li>
                           {/* <li onClick={() => setcurrentpage("social")} class="">
-                            <a href="#">Social</a>
+                            <a >Social</a>
                           </li> */}
                           <li
                             class="isActive-2tLXY"
                             style={{ paddingRight: "20px", color: "#007c89" }}
                             onClick={() => setcurrentpage("more")}
                           >
-                            <a style={{ color: "#007c89" }} href="#">
-                              More
-                            </a>
+                            <a style={{ color: "#007c89" }}>More</a>
                           </li>
                         </ul>
                       </nav>
