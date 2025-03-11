@@ -20,7 +20,7 @@ const AddFrom = () => {
     setLoading(true);
     try {
       const response = await axios.post(
-        "https://latest-mail-chimp-server.vercel.app/api/from",
+        "https://mail-chimp-replicate.vercel.app/api/from",
         formData
       );
       console.log(response.data); // You can handle success response here

@@ -8,7 +8,7 @@ const CampaingsCalender = () => {
   const [events, setEvents] = useState({});
   const [selectedCampaign, setSelectedCampaign] = useState(null); // For modal
   const campaignsUrl =
-    "https://latest-mail-chimp-server.vercel.app/api/largecampaigns/view/all";
+    "https://mail-chimp-replicate.vercel.app/api/largecampaigns/view/all";
 
   // Fetch campaigns data
   useEffect(() => {

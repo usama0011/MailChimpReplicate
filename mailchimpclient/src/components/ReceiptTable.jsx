@@ -24,7 +24,7 @@ const ReceiptTable = ({
       setLoading(true);
       try {
         const response = await axios.get(
-          `https://latest-mail-chimp-server.vercel.app/api/contacts/getAllContacts`,
+          `https://mail-chimp-replicate.vercel.app/api/contacts/getAllContacts`,
           {
             params: {
               page: currentPage,

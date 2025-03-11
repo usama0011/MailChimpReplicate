@@ -13,7 +13,7 @@ const UpdateLargeCampaign = () => {
     const fetchCampaign = async () => {
       try {
         const response = await axios.get(
-          `https://latest-mail-chimp-server.vercel.app/api/largecampaigns/view/${id}`
+          `https://mail-chimp-replicate.vercel.app/api/largecampaigns/view/${id}`
         );
         setCampaign(response.data);
         setLoading(false);
@@ -50,7 +50,7 @@ const UpdateLargeCampaign = () => {
   const handleUpdate = async () => {
     try {
       await axios.put(
-        `https://latest-mail-chimp-server.vercel.app/api/largecampaigns/view/${id}`,
+        `https://mail-chimp-replicate.vercel.app/api/largecampaigns/view/${id}`,
         campaign
       );
       setSuccessMessage("Campaign updated successfully");

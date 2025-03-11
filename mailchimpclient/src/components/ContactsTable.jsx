@@ -14,7 +14,7 @@ const TableComponent = () => {
     setLoading(true);
     try {
       const response = await axios.get(
-        `https://latest-mail-chimp-server.vercel.app/api/contacts/getAllContacts?page=${page}&pageSize=${size}`
+        `https://mail-chimp-replicate.vercel.app/api/contacts/getAllContacts?page=${page}&pageSize=${size}`
       );
       setContacts(
         response.data.data.map((contact) => ({

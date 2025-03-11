@@ -83,11 +83,11 @@ const ChooseEmail = () => {
   const MovetoNext = async () => {
     try {
       await axios.post(
-        "https://latest-mail-chimp-server.vercel.app/api/newcompaing",
+        "https://mail-chimp-replicate.vercel.app/api/newcompaing",
         state
       );
       await axios.post(
-        "https://latest-mail-chimp-server.vercel.app/api/reports",
+        "https://mail-chimp-replicate.vercel.app/api/reports",
         state
       );
       navigation("/");

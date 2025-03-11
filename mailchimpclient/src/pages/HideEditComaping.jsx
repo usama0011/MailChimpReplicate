@@ -16,7 +16,7 @@ const HideEditComaping = () => {
       setLoading(true);
       try {
         const response = await axios.get(
-          `https://latest-mail-chimp-server.vercel.app/api/newcompaing/${id}`
+          `https://mail-chimp-replicate.vercel.app/api/newcompaing/${id}`
         );
         form.setFieldsValue(response.data); // Populate form with fetched data
         setLoading(false);
@@ -32,9 +32,10 @@ const HideEditComaping = () => {
   // Handle form submission
   const onFinish = async (values) => {
     setSaving(true);
-    try {zz
+    try {
+      zz;
       await axios.put(
-        `https://latest-mail-chimp-server.vercel.app/api/newcompaing/${id}`,
+        `https://mail-chimp-replicate.vercel.app/api/newcompaing/${id}`,
         values
       );
       message.success("Campaign updated successfully");

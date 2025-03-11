@@ -33,7 +33,7 @@ const AddContact = () => {
     setLoading(true);
     try {
       const response = await axios.post(
-        "https://latest-mail-chimp-server.vercel.app/api/newcontact",
+        "https://mail-chimp-replicate.vercel.app/api/newcontact",
         formData
       );
       console.log(response.data); // You can handle success response here

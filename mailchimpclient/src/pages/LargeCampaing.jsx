@@ -12,7 +12,7 @@ const LargeCampaignEdit = () => {
     const fetchCampaigns = async () => {
       try {
         const response = await axios.get(
-          "https://latest-mail-chimp-server.vercel.app/api/largecampaigns/view"
+          "https://mail-chimp-replicate.vercel.app/api/largecampaigns/view"
         );
         setCampaigns(response.data);
         setLoading(false);
@@ -28,7 +28,7 @@ const LargeCampaignEdit = () => {
   const handleDeleteFunction = async (id) => {
     try {
       await axios.delete(
-        `https://latest-mail-chimp-server.vercel.app/api/largecampaigns/view/${id}`
+        `https://mail-chimp-replicate.vercel.app/api/largecampaigns/view/${id}`
       );
       alert("Campaign deleted successfully");
       setCampaigns(campaigns.filter((campaign) => campaign._id !== id));

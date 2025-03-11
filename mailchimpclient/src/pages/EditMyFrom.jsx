@@ -14,7 +14,7 @@ const EditMyForm = () => {
     const fetchFrom = async () => {
       try {
         const response = await axios.get(
-          `https://latest-mail-chimp-server.vercel.app/api/from/${id}`
+          `https://mail-chimp-replicate.vercel.app/api/from/${id}`
         );
         setData(response.data);
         setEmail(response.data.from); // Initialize email state
@@ -33,7 +33,7 @@ const EditMyForm = () => {
     try {
       setLoading(true);
       const response = await axios.put(
-        `https://latest-mail-chimp-server.vercel.app/api/from/${id}`,
+        `https://mail-chimp-replicate.vercel.app/api/from/${id}`,
         { from: email }
       );
       setData((prevData) => ({ ...prevData, from: email })); // Update data state

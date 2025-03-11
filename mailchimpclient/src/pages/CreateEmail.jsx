@@ -71,7 +71,7 @@ const CreateEmail = () => {
     const fetchFrom = async () => {
       try {
         const response = await axios.get(
-          `https://latest-mail-chimp-server.vercel.app/api/from/66560e29438e34fecd29ee10`
+          `https://mail-chimp-replicate.vercel.app/api/from/66560e29438e34fecd29ee10`
         );
         setSuccess(true);
         setAdminEmail(response.data);

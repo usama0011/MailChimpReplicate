@@ -9,7 +9,7 @@ const MyReports = () => {
   const navigate = useNavigate();
   useEffect(() => {
     axios
-      .get("https://latest-mail-chimp-server.vercel.app/api/reports")
+      .get("https://mail-chimp-replicate.vercel.app/api/reports")
       .then((response) => {
         setReports(response.data);
         setLoading(false);
@@ -23,7 +23,7 @@ const MyReports = () => {
   const handleDelete = async (id) => {
     try {
       await axios.delete(
-        `https://latest-mail-chimp-server.vercel.app/api/reports/${id}`
+        `https://mail-chimp-replicate.vercel.app/api/reports/${id}`
       );
     } catch (error) {
       console.log(error);

@@ -36,7 +36,7 @@ const EditCompaing = () => {
       try {
         setLoading(true);
         const allComaingsdata = await axios.get(
-          "https://latest-mail-chimp-server.vercel.app/api/newcompaing"
+          "https://mail-chimp-replicate.vercel.app/api/newcompaing"
         );
         setAllComapings(allComaingsdata.data);
         setLoading(false);

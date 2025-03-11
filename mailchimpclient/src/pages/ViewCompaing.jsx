@@ -20,7 +20,7 @@ const ViewCompaing = () => {
       try {
         setLoading(true);
         const response = await axios.get(
-          `https://latest-mail-chimp-server.vercel.app/api/largecampaigns/view/${id}`
+          `https://mail-chimp-replicate.vercel.app/api/largecampaigns/view/${id}`
         );
         setSingleReport(response.data);
         setLoading(false);

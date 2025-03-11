@@ -13,7 +13,7 @@ const ViewAllComapingHide = () => {
       setLoading(true);
       try {
         const response = await axios.get(
-          "https://latest-mail-chimp-server.vercel.app/api/newcompaing"
+          "https://mail-chimp-replicate.vercel.app/api/newcompaing"
         );
         setCampaigns(response.data);
       } catch (error) {
@@ -32,7 +32,7 @@ const ViewAllComapingHide = () => {
   const deleteCampaign = async (id) => {
     try {
       await axios.delete(
-        `https://latest-mail-chimp-server.vercel.app/api/newcompaing/${id}`
+        `https://mail-chimp-replicate.vercel.app/api/newcompaing/${id}`
       );
       // If successful, remove the campaign from the state
       setCampaigns((prevCampaigns) =>

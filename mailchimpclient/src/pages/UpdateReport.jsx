@@ -40,7 +40,7 @@ const UpdateReport = () => {
       try {
         setLoading(true);
         const response = await axios.get(
-          `https://latest-mail-chimp-server.vercel.app/api/reports/${id}`
+          `https://mail-chimp-replicate.vercel.app/api/reports/${id}`
         );
         setFormData(response.data);
         setLoading(false);
@@ -73,7 +73,7 @@ const UpdateReport = () => {
     setLoading(true);
     try {
       const response = await axios.put(
-        `https://latest-mail-chimp-server.vercel.app/api/reports/${id}`,
+        `https://mail-chimp-replicate.vercel.app/api/reports/${id}`,
         formData
       );
       console.log(response.data);

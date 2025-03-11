@@ -13,7 +13,7 @@ const AllContacts = () => {
       setLoading(true);
       try {
         const response = await axios.get(
-          "https://latest-mail-chimp-server.vercel.app/api/newcontact"
+          "https://mail-chimp-replicate.vercel.app/api/newcontact"
         );
         setAllContects(response.data);
       } catch (error) {

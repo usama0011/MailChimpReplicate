@@ -41,7 +41,7 @@ const AllCampaings = () => {
       try {
         setLoading(true);
         const response = await axios.get(
-          `https://latest-mail-chimp-server.vercel.app/api/largecampaigns/view?page=${currentPage}&limit=${itemsPerPage}`
+          `https://mail-chimp-replicate.vercel.app/api/largecampaigns/view?page=${currentPage}&limit=${itemsPerPage}`
         );
 
         setAllComapings(response.data.campaigns);

@@ -16,7 +16,7 @@ dotenv.config();
 // Connect to MongoDB
 try {
   await mongoose.connect(
-    "mongodb+srv://abdulmoiz:abdulmoiz@cluster0.zwtqr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://za5232208:usama0011@cluster0.sktbs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   );
   console.log("Database Connection Successfully!!");
 } catch (error) {
@@ -28,7 +28,7 @@ try {
 const corsOptions = {
   origin: [
     "http://localhost:5173",
-    "https://latest-mail-chimp-client.vercel.app",
+    "https://mail-chimp-replicate-client.vercel.app",
   ], // Allow your frontend origin
   methods: "GET,POST,PUT,DELETE,OPTIONS",
   allowedHeaders: "Content-Type,Authorization",
