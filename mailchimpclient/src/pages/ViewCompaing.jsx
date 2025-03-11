@@ -260,7 +260,7 @@ const ViewCompaing = () => {
                                     <img
                                       alt="Signed in as Ali Next Web Lines, Account Menu"
                                       className="avatarImage-1YlIs snipcss0-15-44-45"
-                                      src="https://img.icons8.com/?size=50&id=63063&format=png"
+                                      src="https://images.unsplash.com/photo-1644088379091-d574269d422f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fElUfGVufDB8fDB8fHww"
                                     />
                                   </div>
                                 </button>
@@ -1355,7 +1355,7 @@ const ViewCompaing = () => {
                                 future, we recommend you authenticate your
                                 domain,{" "}
                                 <span class="root-3TDqk small-bold-6R-6E">
-                                  selanimedia.xyz
+                                  sm@selanimedia.xyz
                                 </span>
                                 .
                               </span>
@@ -2001,7 +2001,7 @@ const ViewCompaing = () => {
                     {/* Email Performance End */}
                     {/* Click Performace End */}
                     {/* 24 hours grpah start */}
-                    <div style={{ maxWidth: "90%", margin: "auto" }}>
+                    {/* <div style={{ maxWidth: "90%", margin: "auto" }}>
                       <div class="chartWrapper-32qb6 snipcss-xJxHm">
                         <div
                           style={{ padding: "20px 30px" }}
@@ -3170,7 +3170,7 @@ const ViewCompaing = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     {/* 24 hour graph end  */}
                     {/* Email Benchmarking start */}
                     <div style={{ maxWidth: "90%", margin: "20px auto" }}>

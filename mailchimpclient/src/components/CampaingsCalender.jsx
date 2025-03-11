@@ -546,13 +546,11 @@ const CampaingsCalender = () => {
                                       </p>
                                       <span>
                                         {/* {selectedCampaign?.audienceName} */}
-                                        Next Web Line LLC
+                                        Selani Media
                                       </span>
 
                                       <p style={{ textAlign: "center" }}>
-                                        119 S Lexington ST, HarrisonVille,
-                                        MO 64701 <br />
-                                        USA
+                                        Chicago IL, USA
                                       </p>
                                       <p style={{ paddingBottom: "10px" }}>
                                         Want to change how you receive these
