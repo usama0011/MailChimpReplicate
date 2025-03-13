@@ -520,6 +520,50 @@ const CampaingsCalender = () => {
                                     <div
                                       style={{
                                         width: "100%",
+                                        justifyContent: "center",
+                                        padding: "10px 0px",
+                                      }}
+                                      class="cluster-3D5Qr"
+                                    >
+                                      <div
+                                        style={{
+                                          width: "100%",
+                                          justifyContent: "center",
+                                        }}
+                                        class="alignItemsCenter-1HCiJ justifyFlexEnd-3_ERd spacing4-1S_zR"
+                                      >
+                                        <a
+                                          style={{
+                                            color: "#017b89",
+                                            border: "1px solid #017b89",
+                                            fontWeight: "bold",
+                                          }}
+                                          class="root-sBgFt container-3-bH7 secondary-1_P2K"
+                                          href="https://us13.admin.mailchimp.com/campaigns/replicate-email?id=6741582"
+                                        >
+                                          <span class="temporarySpan-2iF2p">
+                                            Learn more
+                                          </span>
+                                        </a>
+                                        <div class="root-2PJHr">
+                                          <a
+                                            style={{
+                                              backgroundColor: "#017b89",
+                                              cursor: "pointer",
+                                              color: "white",
+                                            }}
+                                            class="root-sBgFt container-3-bH7 primary-33czz button-1TVkv"
+                                          >
+                                            <span class="temporarySpan-2iF2p">
+                                              See more
+                                            </span>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      style={{
+                                        width: "100%",
                                         backgroundColor: "white",
                                         display: "flex",
                                         flexDirection: "column",
@@ -653,7 +697,6 @@ const CampaingsCalender = () => {
                               color: "white",
                             }}
                             class="root-sBgFt container-3-bH7 primary-33czz button-1TVkv"
-                            href="#"
                           >
                             <span class="temporarySpan-2iF2p">
                               <Link
