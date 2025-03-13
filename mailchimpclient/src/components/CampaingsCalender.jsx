@@ -555,7 +555,7 @@ const CampaingsCalender = () => {
                                             class="root-sBgFt container-3-bH7 primary-33czz button-1TVkv"
                                           >
                                             <span class="temporarySpan-2iF2p">
-                                              See more
+                                              More offers
                                             </span>
                                           </a>
                                         </div>
