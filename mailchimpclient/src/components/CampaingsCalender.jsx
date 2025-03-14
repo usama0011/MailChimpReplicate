@@ -416,10 +416,10 @@ const CampaingsCalender = () => {
                                 {selectedCampaign?.audienceRecipients}
                               </p>
                             </div>
-                            <div class="detailHeaders-2kwm-">
+                            {/* <div class="detailHeaders-2kwm-">
                               <p class="root-3TDqk medium-bold-2nZ0J">Link</p>
-                            </div>
-                            <div class="detailTextContainer-3ta3h">
+                            </div> */}
+                            {/* <div class="detailTextContainer-3ta3h">
                               <a
                                 style={{ color: "#017b89" }}
                                 class="underline-NQrc-"
@@ -452,7 +452,7 @@ const CampaingsCalender = () => {
                                   ></path>
                                 </svg>
                               </button>
-                            </div>
+                            </div> */}
                           </div>
                           <div class="emailMetricsContainer-2LhnZ">
                             <div class="cluster-3D5Qr">
