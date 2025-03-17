@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "nodemon": "index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "postinstall": "npm install xtend"
   },
   "keywords": [],
   "author": "",
