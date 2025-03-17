@@ -492,12 +492,12 @@ const CampaingsCalender = () => {
                               </div>
                             </div>
                           </div>
-                          <div class="detailContainer-1RO8n">
-                            <div id="style-p3fpQ" class="style-p3fpQ">
-                              <div class="previewImage-3eQna">
-                                <div class="root-2l2oQ">
+                          <div className="detailContainer-1RO8n">
+                            <div id="style-p3fpQ" className="style-p3fpQ">
+                              <div className="previewImage-3eQna">
+                                <div className="root-2l2oQ">
                                   <div
-                                    class="container-30qab"
+                                    className="container-30qab"
                                     style={{
                                       backgroundColor: "white",
                                       width: "100%",
@@ -518,46 +518,78 @@ const CampaingsCalender = () => {
                                       alt=""
                                     />
                                     <div
+                                      className="footer-GeAzX"
                                       style={{
                                         width: "100%",
                                         justifyContent: "center",
-                                        padding: "10px 0px",
                                       }}
-                                      class="cluster-3D5Qr"
                                     >
                                       <div
                                         style={{
                                           width: "100%",
                                           justifyContent: "center",
                                         }}
-                                        class="alignItemsCenter-1HCiJ justifyFlexEnd-3_ERd spacing4-1S_zR"
+                                        className="cluster-3D5Qr"
                                       >
-                                        <a
+                                        <div
                                           style={{
-                                            color: "#017b89",
-                                            border: "1px solid #017b89",
-                                            fontWeight: "bold",
+                                            width: "100%",
+                                            cursor: "pointer",
+                                            justifyContent: "center",
                                           }}
-                                          class="root-sBgFt container-3-bH7 secondary-1_P2K"
-                                          href="https://us13.admin.mailchimp.com/campaigns/replicate-email?id=6741582"
+                                          className="alignItemsCenter-1HCiJ justifyFlexEnd-3_ERd spacing4-1S_zR"
                                         >
-                                          <span class="temporarySpan-2iF2p">
-                                            Learn more
-                                          </span>
-                                        </a>
-                                        <div class="root-2PJHr">
                                           <a
                                             style={{
-                                              backgroundColor: "#017b89",
+                                              color: "#017b89",
+                                              border: "1px solid #017b89",
+                                              fontWeight: "bold",
                                               cursor: "pointer",
-                                              color: "white",
                                             }}
-                                            class="root-sBgFt container-3-bH7 primary-33czz button-1TVkv"
+                                            className="root-sBgFt container-3-bH7 secondary-1_P2K"
+                                            onClick={(e) => {
+                                              e.preventDefault(); // Prevent default navigation
+
+                                              window.open(
+                                                selectedCampaign.TLCLinkOneTitle,
+                                                "_blank"
+                                              );
+                                            }}
                                           >
-                                            <span class="temporarySpan-2iF2p">
-                                              More offers
+                                            <span
+                                              style={{ cursor: "pointer" }}
+                                              className="temporarySpan-2iF2p"
+                                            >
+                                              Learn more
                                             </span>
                                           </a>
+                                          <div
+                                            className="root-2PJHr"
+                                            style={{ cursor: "pointer" }}
+                                          >
+                                            <a
+                                              style={{
+                                                backgroundColor: "#017b89",
+                                                color: "white",
+                                              }}
+                                              className="root-sBgFt container-3-bH7 primary-33czz button-1TVkv"
+                                              onClick={(e) => {
+                                                e.preventDefault(); // Prevent default navigation
+
+                                                window.open(
+                                                  selectedCampaign.TLCLinkTwoTitle,
+                                                  "_blank"
+                                                );
+                                              }}
+                                            >
+                                              <span
+                                                style={{ cursor: "pointer" }}
+                                                className="temporarySpan-2iF2p letoverwirte"
+                                              >
+                                                More offers
+                                              </span>
+                                            </a>
+                                          </div>
                                         </div>
                                       </div>
                                     </div>
@@ -590,11 +622,11 @@ const CampaingsCalender = () => {
                                       </p>
                                       <span>
                                         {/* {selectedCampaign?.audienceName} */}
-                                        Selani Media
+                                        Clicks Connections
                                       </span>
-
                                       <p style={{ textAlign: "center" }}>
-                                        Chicago IL, USA
+                                        7133 Thorold Stone Rd, Niagara Falls,
+                                        Ontario, <br /> Canada
                                       </p>
                                       <p style={{ paddingBottom: "10px" }}>
                                         Want to change how you receive these
@@ -621,7 +653,6 @@ const CampaingsCalender = () => {
                                         </span>
                                       </p>
                                     </div>
-
                                     <p
                                       style={{
                                         textAlign: "center",
@@ -658,7 +689,6 @@ const CampaingsCalender = () => {
                                       <p>Update subscription preferences</p>
                                     </span>
                                   </div>
-                                  <div class="overlay-2SoDS"></div>
                                 </div>
                               </div>
                             </div>
