@@ -622,11 +622,11 @@ const CampaingsCalender = () => {
                                       </p>
                                       <span>
                                         {/* {selectedCampaign?.audienceName} */}
-                                        Clicks Connections
+                                        Selani Media
                                       </span>
                                       <p style={{ textAlign: "center" }}>
-                                        7133 Thorold Stone Rd, Niagara Falls,
-                                        Ontario, <br /> Canada
+                                       Chicago IL.
+                                         USA
                                       </p>
                                       <p style={{ paddingBottom: "10px" }}>
                                         Want to change how you receive these
