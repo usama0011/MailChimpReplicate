@@ -132,19 +132,19 @@ const AllCampaings = () => {
     }
   };
   return (
-    <div>
+    <div className="main-scroll-container">
       <div
-        className="animation-theme snipcss0-0-0-1 snipcss-zRclk"
+        className="animation-theme snipcss0-0-0-1 snipcss-zRclk "
         cz-shortcut-listen="true"
       >
         <div id="root" aria-hidden="true" className="snipcss0-1-1-5">
           <div className="redesignNavigationExpandedRRClosed-1Pz4X snipcss0-2-5-6">
             <div className="metaTop-XCUCj snipcss0-3-6-7"></div>
-            <div className="headerTop-2Y-yB snipcss0-3-6-18">
-              <div className="wink snipcss0-4-18-19">
-                <nav className="app-header-1maWO universal-search-29i1W snipcss0-5-19-20">
+            <div className="headerTop-2Y-yB snipcss0-3-6-18" >
+              <div className="wink snipcss0-4-18-19" >
+                <nav className="app-header-1maWO universal-search-29i1W snipcss0-5-19-20" >
                   <div className="content-R4qGr universal-search-29i1W handle-live-help-1vaaS snipcss0-6-20-21">
-                    <div className="align-left-S-hBc snipcss0-7-21-22">
+                    <div className="align-left-S-hBc snipcss0-7-21-22" >
                       <button
                         onClick={() => handleDynamicLInk("/")}
                         type="button"
@@ -2012,7 +2012,7 @@ const AllCampaings = () => {
               </div>
             </main>
           </div>
-          s
+          
         </div>
       </div>
     </div>

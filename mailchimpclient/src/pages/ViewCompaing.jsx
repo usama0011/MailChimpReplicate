@@ -7252,6 +7252,7 @@ const ViewCompaing = () => {
                                 style={{
                                   border: "1px solid gray",
                                   minHeight: "400px",
+                                  
                                 }}
                                 class="c-noDataBlock text-align--center border-gray border-radius--lv2"
                                 id="dijit__TemplatedMixin_0"

@@ -501,13 +501,14 @@ span {
 }
 
 .body-1uBId.hideOverflow-3vTlk {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
 }
 
 .body-1uBId.hideOverflow-3vTlk:-webkit-scrollbar,
 .wink .body-1uBId.hideOverflow-3vTlk::-webkit-scrollbar {
-  display: none;
+  display: none !important;
+
 }
 
 .root-2WEQN {
@@ -7596,3 +7597,4 @@ span {
   font-weight: bold;
   text-align: center;
 }
+
