@@ -4609,7 +4609,7 @@ const ViewCompaing = () => {
                                       <a
                                         class="linkCell-1BCwm"
                                         target="_blank"
-                                        href="https://dailytipsblog.net/solar-companies/"
+                                        href={singlereport?.TLCLinkOneTitle}
                                       >
                                         {singlereport?.TLCLinkOneTitle}
                                       </a>
@@ -4660,7 +4660,7 @@ const ViewCompaing = () => {
                                       <a
                                         class="linkCell-1BCwm"
                                         target="_blank"
-                                        href="https://dailytipsblog.net/solar-companies/"
+                                        href={singlereport?.TLCLinkTwoTitle}
                                       >
                                         {singlereport?.TLCLinkTwoTitle}
                                       </a>
@@ -4711,7 +4711,7 @@ const ViewCompaing = () => {
                                       <a
                                         class="linkCell-1BCwm"
                                         target="_blank"
-                                        href="https://dailytipsblog.net/solar-companies/"
+                                        href={singlereport?.TLCLinkThreeTitle}
                                       >
                                         {singlereport?.TLCLinkThreeTitle}
                                       </a>
@@ -4761,7 +4761,7 @@ const ViewCompaing = () => {
                                       <a
                                         class="linkCell-1BCwm"
                                         target="_blank"
-                                        href="https://dailytipsblog.net/solar-companies/"
+                                        href={singlereport?.TLCLinkFourTitle}
                                       >
                                         {singlereport?.TLCLinkFourTitle}
                                       </a>

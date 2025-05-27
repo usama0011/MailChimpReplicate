@@ -13,7 +13,7 @@ const AllContacts = () => {
       setLoading(true);
       try {
         const response = await axios.get(
-          "https://mail-chimp-replicate.vercel.app/api/newcontact"
+          "https://mail-chimp-replicate.vercel.app/api/contacts/getAllContacts"
         );
         setAllContects(response.data);
       } catch (error) {
@@ -24,6 +24,7 @@ const AllContacts = () => {
 
     fetchCampaigns();
   }, []);
+  console.log(allcontacts);
   return (
     <div
       class="animation-theme snipcss0-0-0-1 snipcss-zRclk"
@@ -985,22 +986,26 @@ const AllContacts = () => {
                 class="margin-bottom--lv4"
               >
                 <p data-dojo-attach-point="selectLabel" class="ddkjsldfj">
-                  Next Web Lines
+                  Selani Media
                 </p>
               </div>
               <div className="audiencemain">
                 <p style={{ fontSize: "20px", color: "#241c60" }}>
-                  Total <span style={{ color: "#007c89 " }}> 9811</span>{" "}
+                  Total{" "}
+                  <span style={{ color: "#007c89 " }}>
+                    {" "}
+                    {allcontacts?.total}
+                  </span>{" "}
                   contacts.
-                  <span style={{ color: "#007c89 " }}> 7691 </span> email
-                  subscribers.
+                  <span style={{ color: "#007c89 " }}>
+                    {" "}
+                    {Math.round(allcontacts?.total * 0.85)}
+                  </span>{" "}
+                  email subscribers.
                 </p>
                 <div className="tooglesmentus">
                   <div></div>
                   <div>
-                    <select style={{ width: "190px" }} name="" id="">
-                      <option value="Toggle">Toggle Coloums</option>
-                    </select>
                     <button style={{ width: "190px", margin: "0px 10px" }}>
                       Export Audience
                     </button>
